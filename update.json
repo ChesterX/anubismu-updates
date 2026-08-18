@@ -9,7 +9,7 @@
     "path": "Config.ini",
     "size": 378,
     "hash": "df013813364c0048149b861ead18cba6",
-    "modified": "2026-08-18T13:11:30.000Z"
+    "modified": "2026-08-18T17:10:46.000Z"
   },
   {
     "path": "FreeImage.dll",
@@ -22612,6 +22612,288 @@
     "size": 22346,
     "hash": "5b15ab86202a2edd0a13947ab987d309",
     "modified": "2009-01-19T01:27:32.000Z"
+  },
+  {
+    "path": "Data/Music/Aida.mp3",
+    "size": 2988639,
+    "hash": "f5530ca1f776a52756fc0d1ec73a2586",
+    "modified": "2005-08-16T05:52:50.000Z"
+  },
+  {
+    "path": "Data/Music/atlans.mp3",
+    "size": 4526396,
+    "hash": "36be46d26b4723814c0127c082382cca",
+    "modified": "2004-07-30T05:42:52.000Z"
+  },
+  {
+    "path": "Data/Music/BalgasBarrack.mp3",
+    "size": 4054104,
+    "hash": "8ff81775bc655484781cba16393afb78",
+    "modified": "2007-06-18T06:09:00.000Z"
+  },
+  {
+    "path": "Data/Music/BalgasRefuge.mp3",
+    "size": 3195858,
+    "hash": "5b34249623077daeb6f4bb1ced277e79",
+    "modified": "2007-06-18T06:08:44.000Z"
+  },
+  {
+    "path": "Data/Music/castle.mp3",
+    "size": 3901547,
+    "hash": "b5cc8874ea6d6e93ff9837b911bc89bc",
+    "modified": "2004-12-24T12:08:16.000Z"
+  },
+  {
+    "path": "Data/Music/charge.mp3",
+    "size": 2803150,
+    "hash": "db3b45feeaada9cdc240a08470fb14e8",
+    "modified": "2004-12-24T12:09:32.000Z"
+  },
+  {
+    "path": "Data/Music/Church.mp3",
+    "size": 5019400,
+    "hash": "3f0dd9b22ad22c8c5e3c0666f4d61a8a",
+    "modified": "2001-10-11T16:17:08.000Z"
+  },
+  {
+    "path": "Data/Music/crywolf1st.mp3",
+    "size": 3074541,
+    "hash": "4b0d2cd54c9815edaa2d5683cf9ff910",
+    "modified": "2005-08-16T05:53:24.000Z"
+  },
+  {
+    "path": "Data/Music/crywolf_back-03.ogg",
+    "size": 1771373,
+    "hash": "39652e90a02150dc7903a5d377dc62f5",
+    "modified": "2005-12-15T11:30:56.000Z"
+  },
+  {
+    "path": "Data/Music/crywolf_before-01.ogg",
+    "size": 1190624,
+    "hash": "febb9af0e87c8e57d433a1b2b29d6abc",
+    "modified": "2005-12-15T11:29:46.000Z"
+  },
+  {
+    "path": "Data/Music/crywolf_ready-02.ogg",
+    "size": 1563240,
+    "hash": "4460d1ddbaa30ca4a94fb4519a1eda80",
+    "modified": "2005-12-15T11:30:24.000Z"
+  },
+  {
+    "path": "Data/Music/cursedtempleplay.mp3",
+    "size": 2754528,
+    "hash": "4f35bd933fb0af0cfdf467dabe33250f",
+    "modified": "2007-06-18T06:09:10.000Z"
+  },
+  {
+    "path": "Data/Music/cursedtemplewait.mp3",
+    "size": 1437054,
+    "hash": "1d0fde97edf899307fd7b01ac4595e9c",
+    "modified": "2007-06-19T06:18:46.000Z"
+  },
+  {
+    "path": "Data/Music/Devias.mp3",
+    "size": 6289578,
+    "hash": "91c02da84ce03b054b8713760f04498e",
+    "modified": "2001-10-11T16:17:02.000Z"
+  },
+  {
+    "path": "Data/Music/devil_square_intro.mp3",
+    "size": 930275,
+    "hash": "bcef4973b1025d1c530696b82bf16cf9",
+    "modified": "2004-08-04T03:36:50.000Z"
+  },
+  {
+    "path": "Data/Music/devil_square_outro.mp3",
+    "size": 1847696,
+    "hash": "386fcaa73694d0ed2acb646bb648313b",
+    "modified": "2004-08-04T04:09:10.000Z"
+  },
+  {
+    "path": "Data/Music/DuelArena.mp3",
+    "size": 885972,
+    "hash": "089f96c1ce39451a0b9cb9d136325b08",
+    "modified": "2009-02-27T10:31:04.000Z"
+  },
+  {
+    "path": "Data/Music/Dungeon.mp3",
+    "size": 5830032,
+    "hash": "0bfe6069a4f1ad1f4e82256df67c4d0b",
+    "modified": "2001-10-11T16:17:16.000Z"
+  },
+  {
+    "path": "Data/Music/elbeland.mp3",
+    "size": 3260962,
+    "hash": "d1e73e741753823c019feb96b0e31b67",
+    "modified": "2007-11-26T12:00:58.000Z"
+  },
+  {
+    "path": "Data/Music/huntingground.mp3",
+    "size": 3588224,
+    "hash": "1ebbf55452025cf698f178489f0f3a69",
+    "modified": "2005-01-25T11:46:18.000Z"
+  },
+  {
+    "path": "Data/Music/icarus.mp3",
+    "size": 3292999,
+    "hash": "f463d058bad53c5796f48d0b04afbba8",
+    "modified": "2004-07-30T05:43:20.000Z"
+  },
+  {
+    "path": "Data/Music/iDoppelganger.mp3",
+    "size": 1213881,
+    "hash": "272b02e781e7d460b9853bee9f96041a",
+    "modified": "2009-08-06T06:45:00.000Z"
+  },
+  {
+    "path": "Data/Music/ImperialGuardianFort.mp3",
+    "size": 1217831,
+    "hash": "bc2159f3951ef717057d957f39a980a6",
+    "modified": "2009-07-24T11:39:04.000Z"
+  },
+  {
+    "path": "Data/Music/kalima.mp3",
+    "size": 2997083,
+    "hash": "e1df7c4e219447a607c9fec176ba7e78",
+    "modified": "2004-07-30T05:42:20.000Z"
+  },
+  {
+    "path": "Data/Music/KanturuMayaBattle.mp3",
+    "size": 2810242,
+    "hash": "de45357e5d9c1227badf427ccb1eb694",
+    "modified": "2006-08-08T08:37:28.000Z"
+  },
+  {
+    "path": "Data/Music/KanturuNightmareBattle.mp3",
+    "size": 3044992,
+    "hash": "15615412b6984e9515a1588df52d4ff8",
+    "modified": "2006-08-08T08:37:36.000Z"
+  },
+  {
+    "path": "Data/Music/KanturuTower.mp3",
+    "size": 2698188,
+    "hash": "f24214dfc9df73e2cc58e0d18d008619",
+    "modified": "2006-08-08T08:37:46.000Z"
+  },
+  {
+    "path": "Data/Music/kanturu_1st.mp3",
+    "size": 2801478,
+    "hash": "8ff3cadfd1db276d69b4854a61a8b295",
+    "modified": "2006-08-08T08:37:58.000Z"
+  },
+  {
+    "path": "Data/Music/kanturu_2nd.mp3",
+    "size": 2967994,
+    "hash": "fda33b386c76cc6a7bac25ce180a4e2c",
+    "modified": "2006-08-08T08:38:08.000Z"
+  },
+  {
+    "path": "Data/Music/Karutan_A.mp3",
+    "size": 1318559,
+    "hash": "f652c12f2fedb199fe7ad892d6f52c12",
+    "modified": "2010-09-10T10:06:48.000Z"
+  },
+  {
+    "path": "Data/Music/Karutan_B.mp3",
+    "size": 1757416,
+    "hash": "6befa9e41034a8322d1ae60b71e5bc59",
+    "modified": "2010-09-13T13:19:56.000Z"
+  },
+  {
+    "path": "Data/Music/lastend.mp3",
+    "size": 2075483,
+    "hash": "bf83b66aa69b06e9fa6704d74201fbcb",
+    "modified": "2004-12-24T12:12:24.000Z"
+  },
+  {
+    "path": "Data/Music/login_theme.mp3",
+    "size": 2819632,
+    "hash": "460bdad30eacd9415f39042b6c6aaf60",
+    "modified": "2007-12-04T15:36:34.000Z"
+  },
+  {
+    "path": "Data/Music/lose.mp3",
+    "size": 550912,
+    "hash": "1d9f699e7f381111e9459aa7f55a58d5",
+    "modified": "2004-12-24T10:37:50.000Z"
+  },
+  {
+    "path": "Data/Music/lost_tower_a.mp3",
+    "size": 4034876,
+    "hash": "3dc6408ca98f91ec1b23a8384c884125",
+    "modified": "2004-07-30T05:46:54.000Z"
+  },
+  {
+    "path": "Data/Music/lost_tower_b.mp3",
+    "size": 3087781,
+    "hash": "e650c1749fe6711c12bb854e61c35fc8",
+    "modified": "2004-07-30T05:47:00.000Z"
+  },
+  {
+    "path": "Data/Music/main_theme.mp3",
+    "size": 2150298,
+    "hash": "4dacd5ed81c1e10b4826e5001d7480a4",
+    "modified": "2004-07-30T05:46:14.000Z"
+  },
+  {
+    "path": "Data/Music/MuTheme.mp3",
+    "size": 5028177,
+    "hash": "15290b14bc6e2fe3767453af0d373cca",
+    "modified": "2001-10-11T16:17:20.000Z"
+  },
+  {
+    "path": "Data/Music/Noria.mp3",
+    "size": 5079832,
+    "hash": "402cfb35f8918e2b70dc758460040178",
+    "modified": "2026-08-18T17:08:35.000Z"
+  },
+  {
+    "path": "Data/Music/PK_Field.mp3",
+    "size": 832473,
+    "hash": "4426dc4460b75c4e8c19755b6026d219",
+    "modified": "2009-02-27T10:38:20.000Z"
+  },
+  {
+    "path": "Data/Music/Pub.mp3",
+    "size": 3292554,
+    "hash": "17f10b74092f7f2fdb729297d00ae1cf",
+    "modified": "2001-10-11T16:17:28.000Z"
+  },
+  {
+    "path": "Data/Music/Raklion.mp3",
+    "size": 1787928,
+    "hash": "e63dfcb5d11cae4f5921598aa7e886cc",
+    "modified": "2008-07-08T11:54:50.000Z"
+  },
+  {
+    "path": "Data/Music/Raklion_Hatchery.mp3",
+    "size": 1051065,
+    "hash": "302f6080a2af79efbca2c56b22ec6d95",
+    "modified": "2008-07-08T11:54:38.000Z"
+  },
+  {
+    "path": "Data/Music/Santa_Village.mp3",
+    "size": 1285541,
+    "hash": "dbc33ce27a37b44322b302740c7b72ad",
+    "modified": "2008-11-18T08:48:16.000Z"
+  },
+  {
+    "path": "Data/Music/SwampOfCalmness.mp3",
+    "size": 2009028,
+    "hash": "47425ab3f4db381905bdaf5a28aacb1e",
+    "modified": "2008-02-04T12:21:10.000Z"
+  },
+  {
+    "path": "Data/Music/tarkan.mp3",
+    "size": 3049328,
+    "hash": "5e9baebaa2c4acb87ad407328da40ef2",
+    "modified": "2004-08-04T03:24:34.000Z"
+  },
+  {
+    "path": "Data/Music/victory.mp3",
+    "size": 387072,
+    "hash": "b237624ad0129872c9aea637b7efd62e",
+    "modified": "2004-12-24T10:40:28.000Z"
   },
   {
     "path": "Data/NPC/agic_shop01.OZT",
