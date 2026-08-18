@@ -1,22 +1,155 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
 <meta charset="UTF-8">
-<title>AnubisMu — Changelog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AnubisMU — Changelog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  body { background:#0d0d10; color:#e6e6e6; font-family: Segoe UI, Arial, sans-serif; margin:0; padding:24px; }
-  h1 { color:#c9a24b; margin-top:0; }
-  h2 { color:#c9a24b; border-bottom:1px solid #333; padding-bottom:4px; margin-top:28px; }
-  .entry { margin-bottom:6px; }
-  .date { color:#888; font-size:0.85em; }
+  :root {
+    --bg: #000000;
+    --card-bg: #12151b;
+    --card-border: rgba(255, 255, 255, 0.07);
+    --gold-light: #f0cf94;
+    --gold-dark: #a97a3f;
+    --text: #dcd5c7;
+    --muted: #7d818c;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+  }
+
+  .header {
+    width: 100%;
+    display: block;
+  }
+
+  .header img {
+    width: 100%;
+    display: block;
+  }
+
+  .wrap {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 15px 0;
+  }
+
+  .entry {
+    display: flex;
+    width: 100%;
+    gap: 28px;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 16px;
+  }
+
+  .entry .meta {
+    flex: 0 0 130px;
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+    padding-right: 28px;
+  }
+
+  .entry .version {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.1;
+    background: linear-gradient(180deg, var(--gold-light), var(--gold-dark));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .entry .date {
+    margin-top: 6px;
+    font-size: 13px;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+  }
+
+  .entry ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+  }
+
+  .entry li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text);
+  }
+
+  .entry li + li {
+    margin-top: 10px;
+  }
+
+  .entry li::before {
+    content: '◆';
+    color: var(--gold-light);
+    font-size: 9px;
+    margin-top: 6px;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 560px) {
+    .entry {
+      flex-direction: column;
+      gap: 16px;
+      padding: 24px;
+    }
+
+    .entry .meta {
+      flex: none;
+      border-right: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      padding-right: 0;
+      padding-bottom: 16px;
+    }
+  }
 </style>
-</head>
-<body>
-  <h1>AnubisMu — Changelog</h1>
 
-  <h2>2026-08-18 <span class="date"></span></h2>
-  <div class="entry">Запущен лаунчер и система автообновления.</div>
+<div class="wrap" id="wrap"></div>
 
-  <!-- Добавляйте новые записи сверху -->
-</body>
-</html>
+<script>
+  async function loadChangelog() {
+    const wrap = document.getElementById('wrap');
+    try {
+      const res = await fetch('changelog.json');
+      const versions = await res.json();
+
+      const html = versions.map(v => `
+        <div class="entry">
+          <div class="meta">
+            <div class="version">${v.version}</div>
+            <div class="date">${v.date}</div>
+          </div>
+          <ul>
+            ${v.items.map(item => `<li>${item}</li>`).join('')}
+          </ul>
+        </div>
+      `).join('');
+
+      wrap.innerHTML = html;
+    } catch (err) {
+      wrap.innerHTML = '<p style="color: var(--muted)">Не удалось загрузить changelog.json</p>';
+      console.error('Failed to load changelog:', err);
+    }
+  }
+
+  loadChangelog();
+</script>
