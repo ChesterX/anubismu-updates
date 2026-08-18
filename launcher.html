@@ -129,7 +129,7 @@
   async function loadChangelog() {
     const wrap = document.getElementById('wrap');
     try {
-      const res = await fetch('changelog.json');
+      const res = await fetch('changelog.json?t=' + Date.now(), { cache: 'no-store' });
       const versions = await res.json();
 
       const html = versions.map(v => `
