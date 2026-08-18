@@ -2,14 +2,14 @@
   {
     "path": "AnubisMu.exe",
     "size": 11312640,
-    "hash": "b55ac93085559f09d72536c0d8d93467",
-    "modified": "2026-08-18T08:53:24.000Z"
+    "hash": "0b7b283a2e628e9ee7828b4d62acb57b",
+    "modified": "2026-08-18T11:51:10.000Z"
   },
   {
     "path": "Config.ini",
     "size": 378,
     "hash": "df013813364c0048149b861ead18cba6",
-    "modified": "2026-08-18T08:53:46.000Z"
+    "modified": "2026-08-18T11:47:52.000Z"
   },
   {
     "path": "FreeImage.dll",
@@ -15590,8 +15590,8 @@
   {
     "path": "Data/Local/AnubisMuMain.bin",
     "size": 1187508,
-    "hash": "a1211bdd7cf80f793f4627191dfb8864",
-    "modified": "2026-08-18T08:41:41.000Z"
+    "hash": "ef460fdd56e78933a8d82967be7113e3",
+    "modified": "2026-08-18T10:56:35.000Z"
   },
   {
     "path": "Data/Local/AnubisMuText.bin",
@@ -15730,12 +15730,6 @@
     "size": 165,
     "hash": "fc0f0d7795899ce5eb1a766cc3025089",
     "modified": "2026-08-18T08:29:26.000Z"
-  },
-  {
-    "path": "Data/Local/ServerList.bmd.bak-rename",
-    "size": 165,
-    "hash": "67a1dd945fe3911a89c78736c491e0b4",
-    "modified": "2020-03-05T11:32:22.000Z"
   },
   {
     "path": "Data/Local/webzenlogo.ozj",
