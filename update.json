@@ -1,15 +1,15 @@
 [
   {
     "path": "AnubisMu.exe",
-    "size": 11312640,
-    "hash": "0b7b283a2e628e9ee7828b4d62acb57b",
-    "modified": "2026-08-18T11:51:10.000Z"
+    "size": 11227136,
+    "hash": "7ca775e968f03a01acbb9521034fe646",
+    "modified": "2026-08-18T14:17:12.000Z"
   },
   {
     "path": "Config.ini",
     "size": 378,
     "hash": "df013813364c0048149b861ead18cba6",
-    "modified": "2026-08-18T11:47:52.000Z"
+    "modified": "2026-08-18T13:11:30.000Z"
   },
   {
     "path": "FreeImage.dll",
@@ -15590,14 +15590,14 @@
   {
     "path": "Data/Local/AnubisMuMain.bin",
     "size": 1187508,
-    "hash": "ef460fdd56e78933a8d82967be7113e3",
-    "modified": "2026-08-18T10:56:35.000Z"
+    "hash": "09c48baac28c744189279b860bef2f71",
+    "modified": "2026-08-18T14:20:18.000Z"
   },
   {
     "path": "Data/Local/AnubisMuText.bin",
     "size": 1623456,
-    "hash": "94d8f160c4acf9c557c47733ea2fe50b",
-    "modified": "2026-08-18T07:39:18.000Z"
+    "hash": "881b6e449d1109fe7fc2c5e63827bfa6",
+    "modified": "2026-08-18T14:20:18.000Z"
   },
   {
     "path": "Data/Local/Credit.bmd",
@@ -15758,8 +15758,8 @@
   {
     "path": "Data/Local/Eng/ItemSetOption_eng.bmd",
     "size": 7044,
-    "hash": "ab91fc070e3f80920a5d36be78b6b041",
-    "modified": "2011-06-22T07:57:58.000Z"
+    "hash": "7525c83574d34f7622dd60f04e44e0b1",
+    "modified": "2026-08-18T13:58:15.000Z"
   },
   {
     "path": "Data/Local/Eng/ItemTooltipText_eng.bmd",
@@ -15802,6 +15802,12 @@
     "size": 3196,
     "hash": "89172b6a87deab112ea081b3bc536494",
     "modified": "2020-02-20T04:45:49.000Z"
+  },
+  {
+    "path": "Data/Local/Eng/Npcname(eng).txt",
+    "size": 13041,
+    "hash": "cd1617bdadbd77dd198da647c4a141e3",
+    "modified": "2013-11-28T23:11:54.000Z"
   },
   {
     "path": "Data/Local/Eng/QuestWords_eng.bmd",
