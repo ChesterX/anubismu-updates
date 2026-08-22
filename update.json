@@ -2,14 +2,14 @@
   {
     "path": "AnubisMu.exe",
     "size": 11226624,
-    "hash": "1fdf8b05fcda81ca6d5ee88f92d9bd5e",
-    "modified": "2026-08-19T18:15:36.000Z"
+    "hash": "ce1ba35a896f9f3ec2d4bc283e030aa5",
+    "modified": "2026-08-22T08:46:59.000Z"
   },
   {
     "path": "Config.ini",
     "size": 378,
     "hash": "df013813364c0048149b861ead18cba6",
-    "modified": "2026-08-19T14:45:22.000Z"
+    "modified": "2026-08-19T18:43:25.000Z"
   },
   {
     "path": "FreeImage.dll",
